@@ -58,11 +58,11 @@ class HomePageState extends State<HomePage> {
           ),
           _locationCountry(),
           SizedBox(
-            height: MediaQuery.sizeOf(context).height * 0.08,
+            height: MediaQuery.sizeOf(context).height * 0.05,
           ),
           _dateTimeInfo(),
           SizedBox(
-            height: MediaQuery.sizeOf(context).height * 0.05,
+            height: MediaQuery.sizeOf(context).height * 0.02,
           ),
           _weatherIcon(),
           SizedBox(
