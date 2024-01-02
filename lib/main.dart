@@ -11,7 +11,7 @@ class weatherApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       title: "Weather App",
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(),
       home: HomePage(),
     );
   }
