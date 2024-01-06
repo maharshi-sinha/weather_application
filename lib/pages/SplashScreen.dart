@@ -35,8 +35,11 @@ class SplashScreenState extends State<SplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Lottie.network(
-                  "https://lottie.host/d664d1d5-1239-4761-bfd5-2d1141515877/RmuNZFMbmR.json"),
+              SizedBox(
+                  height: 250,
+                  width: 250,
+                  child:
+                      Lottie.asset("assets/images/SplashScreenAnimation.json")),
               Text(
                 "Weather Go",
                 style: TextStyle(
